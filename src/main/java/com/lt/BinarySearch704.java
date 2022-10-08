@@ -1,13 +1,13 @@
 package com.lt;
 
-public class BinarySearch {
+public class BinarySearch704 {
     public static int search(int[] nums, int target) {
         if (nums.length == 0) return -1;
         int length = nums.length;
         int start = 0;
         int end = length -1;
         while (start <= end) {
-            int mid = (end - start) / 2;
+            int mid = (end - start) / 2;//防止溢出
             if (nums[start + mid] == target) {
                 return start + mid;
             } else if (nums[start + mid] < target) {
