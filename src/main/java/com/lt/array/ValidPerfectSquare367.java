@@ -1,4 +1,4 @@
-package com.lt;
+package com.lt.array;
 
 public class ValidPerfectSquare367 {
     public static boolean isPerfectSquare(int num) {

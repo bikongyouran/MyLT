@@ -1,4 +1,4 @@
-package com.lt;
+package com.lt.array;
 
 public class SearchInsertPosition35 {
     public static int searchInsert(int[] nums, int target) {

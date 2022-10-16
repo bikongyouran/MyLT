@@ -1,4 +1,4 @@
-package com.lt;
+package com.lt.array;
 
 public class RemoveDuplicatesFromSortedArray26 {
     public static int removeDuplicates(int[] nums) {

@@ -1,4 +1,4 @@
-package com.lt;
+package com.lt.array;
 
 public class Sqrt69 {
     public static int mySqrt(int x) {

@@ -1,4 +1,4 @@
-package com.lt;
+package com.lt.array;
 
 public class RemoveElement27 {
     public static int removeElement(int[] nums, int val) {

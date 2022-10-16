@@ -1,4 +1,4 @@
-package com.lt;
+package com.lt.array;
 
 public class MoveZeroes283 {
     public static void moveZeroes(int[] nums) {

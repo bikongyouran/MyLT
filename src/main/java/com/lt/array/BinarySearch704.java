@@ -1,4 +1,4 @@
-package com.lt;
+package com.lt.array;
 
 public class BinarySearch704 {
     public static int search(int[] nums, int target) {

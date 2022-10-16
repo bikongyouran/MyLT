@@ -1,4 +1,4 @@
-package com.lt;
+package com.lt.array;
 
 public class FindFirstLastPosition34 {
     public static int[] searchRange(int[] nums, int target) {
