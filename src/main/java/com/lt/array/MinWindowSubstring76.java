@@ -21,7 +21,7 @@ public class MinWindowSubstring76 {
             right++;
             if (neededChar.containsKey(c)) {
                 windowChar.put(c, windowChar.getOrDefault(c, 0) + 1);
-                if (windowChar.get(c) == neededChar.get(c)) {
+                if (windowChar.get(c).equals(neededChar.get(c))) {
                     valid++;
                 }
             }
