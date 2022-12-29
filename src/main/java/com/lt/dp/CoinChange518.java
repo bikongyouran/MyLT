@@ -12,7 +12,7 @@ public class CoinChange518 {
 //            for (int j = 0; j < dp[0].length; j++) {
 //                if (coins[i - 1] > j) dp[i][j] = dp[i - 1][j];
 //                else {
-//                    dp[i][j] = dp[i - 1][j] + dp[i][j - coins[i - 1]];
+//                    dp[i][j] = dp[i - 1][j] + dp[i][j - coins[i - 1]];//dp[i][j - coins[i - 1]]和0-1背包不一样，因为可以重复取，所以用dp[i].
 //                }
 //            }
 //        }
